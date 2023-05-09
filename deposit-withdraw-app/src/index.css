@@ -1,0 +1,125 @@
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  background-color: rgb(21, 21, 21);
+  color: white;
+}
+
+/* h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+} */
+
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(21, 21, 21);
+  color: white;
+  overflow-x: hidden;
+  height: 100vw;
+}
+
+.ligher-grey {
+  background-color: #e4e4f5;
+}
+
+.light-grey {
+  background-color: #1b1a1d;
+}
+
+.grey {
+  background-color: #1a1c1e;
+}
+
+.red {
+  background-color: #ac3639;
+}
+
+.green {
+  background-color: #83c17f;
+}
+
+.balance-review-container {
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  text-align: left;
+  display: flex;
+}
+
+.balance-info {
+  width: 50%;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-wrapper button {
+  color: white;
+  border: none;
+  padding: 15px 40px 15px 40px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.transaction-form {
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.transaction-form button {
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: darkorange;
+}
+
+.transaction-form input {
+  border-radius: 4px;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+}
